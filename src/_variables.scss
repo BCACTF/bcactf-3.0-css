@@ -21,6 +21,8 @@ $body-background-image: radial-gradient(circle at center, $dark-purple-3 0, blac
 $heading-font: $body-font;
 $heading-font-smoothing-effect: true;
 
+$monospace-font: monospace;
+
 $text-color: white;
 
 $border-color: transparentize(white, 0.8);
@@ -51,3 +53,7 @@ $challenge-solved-border: 2px solid $lime;
 
 $challenge-hidden-background-color: transparentize($color-error, 0.7);
 $challenge-hidden-border: 2px solid $color-error;
+
+$challenge-category-background-color: $cool-cyan;
+$challenge-category-text-color: $color-initial;
+$challenge-category-font-size: 80%;

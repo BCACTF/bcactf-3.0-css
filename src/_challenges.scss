@@ -46,3 +46,53 @@
 .challenge-card * {
     margin-bottom: 0.5rem;
 }
+
+.challenge-categories ul {
+    margin: 0;
+}
+
+.challenge-categories li {
+    display: inline-block;
+    margin-right: 0.5rem;
+    padding: 0 0.5rem;
+    font-size: $challenge-category-font-size;
+    border-radius: 0.5rem;
+    background-color: $challenge-category-background-color;
+    color: $challenge-category-text-color;
+}
+
+.challenge-description * {
+    margin: 0.5em 0;
+}
+
+.challenge-details>span:not(:last-child)::after {
+    content: " – ";
+}
+
+.challenge-links ul {
+    margin-left: 1em;
+    padding-top: 1em;
+}
+
+.challenge-links li {
+    list-style-position: outside;
+    padding-left: 0.8rem;
+    margin-bottom: 0.1rem;
+}
+
+.link-file {
+    list-style-type: "📄";
+}
+
+.link-nc {
+    list-style-type: "🐈";
+}
+
+.link-web {
+    list-style-type: "🌐";
+}
+
+summary {
+    cursor: pointer;
+    width: fit-content;
+}
