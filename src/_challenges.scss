@@ -59,10 +59,11 @@
     border-radius: 0.5rem;
     background-color: $challenge-category-background-color;
     color: $challenge-category-text-color;
+    margin-bottom: 0;
 }
 
-.challenge-description * {
-    margin: 0.5em 0;
+.challenge-description > :last-child {
+    margin-bottom: 0;
 }
 
 .challenge-details>span:not(:last-child)::after {
@@ -71,13 +72,17 @@
 
 .challenge-links ul {
     margin-left: 1em;
-    padding-top: 1em;
+    margin-bottom: 0;
 }
 
 .challenge-links li {
     list-style-position: outside;
     padding-left: 0.8rem;
     margin-bottom: 0.1rem;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
 }
 
 .link-file {
@@ -95,4 +100,17 @@
 summary {
     cursor: pointer;
     width: fit-content;
+}
+
+.solve-form {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.solve-form, .solve-form .row {
+    margin-bottom: 0;
+}
+
+.challenge-categories, .challenge-description, .challenge-links, .challenge-hints {
+    margin-bottom: $challenge-modal-item-spacing;
 }

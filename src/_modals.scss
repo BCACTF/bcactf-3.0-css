@@ -40,3 +40,12 @@
   text-decoration: none;
   cursor: pointer;
 }
+
+.phx-modal-content {
+    max-width: 780px;
+}
+
+.phx-modal-content>h2 {
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+}
