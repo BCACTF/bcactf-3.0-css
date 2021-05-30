@@ -1,0 +1,48 @@
+.challenge-group h2 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.row .challenge-card-container {
+    padding: 1rem;
+}
+
+@media (min-width: 40.0rem) {
+    .row .challenge-card-container {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+}
+
+.challenge-card {
+    padding: 1rem;
+    border: $challenge-border;
+    color: $challenge-text-color;
+    height: 100%;
+    transition: background-color 0.2s, border 0.2s;
+}
+
+.challenge-card:hover {
+    border: $challenge-hover-border;
+}
+
+.challenge-card.solved {
+    border: $challenge-solved-border;
+}
+
+.challenge-card.hidden {
+    background-color: $challenge-hidden-background-color;
+    border: $challenge-hidden-border;
+}
+
+.challenge-card.solved {
+    background-color: $challenge-solved-background-color;
+}
+
+.challenge-card:hover {
+    background-color: $challenge-hover-background-color;
+}
+
+.challenge-card * {
+    margin-bottom: 0.5rem;
+}

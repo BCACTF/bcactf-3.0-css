@@ -9,10 +9,10 @@
 @import "_buttons";
 @import "_forms";
 @import "_tables";
+@import "_alerts";
 @import "_modals";
 @import "_arcs"; // TODO: Refactor
-
-@import "_hack_challenges";
+@import "_challenges";
 
 // LiveView specific classes for your customizations
 .invalid-feedback {
@@ -35,33 +35,4 @@
 }
 .phx-disconnected *{
   pointer-events: none;
-}
-
-// Alerts and form errors
-.alert {
-  padding: 15px;
-  margin-bottom: 20px;
-  border: 1px solid transparent;
-  border-radius: 4px;
-}
-.alert-info {
-  color: #31708f;
-  background-color: #d9edf7;
-  border-color: #bce8f1;
-}
-.alert-warning {
-  color: #8a6d3b;
-  background-color: #fcf8e3;
-  border-color: #faebcc;
-}
-.alert-danger {
-  color: $color-error;
-  background-color: transparentize($color-error, 0.9);
-  border-color: $color-error;
-}
-.alert p {
-  margin-bottom: 0;
-}
-.alert:empty {
-  display: none;
 }

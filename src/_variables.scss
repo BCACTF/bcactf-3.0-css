@@ -1,6 +1,7 @@
 $hot-pink: #FF4AFF;
 $cool-cyan: #4dc4ff;
 $yellow: yellow;
+$lime: lime;
 $tangy-orange: #ff8521;
 $dark-purple-1: #0f031f;
 $dark-purple-2: #110126;
@@ -8,6 +9,9 @@ $dark-purple-3: #290459;
 
 $color-primary: $cool-cyan;
 $color-initial: black;
+$color-success: $lime;
+$color-info: $cool-cyan;
+$color-warning: $yellow;
 $color-error: #ff765e;
 
 $body-font: "Times New Roman", Times, Tinos, serif;
@@ -36,3 +40,14 @@ $modal-background-color: transparentize($cool-cyan, 0.95);
 $modal-border: 3px solid $cool-cyan;
 $modal-close-color: $hot-pink;
 $modal-close-hover-color: $yellow;
+
+$challenge-border: 2px solid $border-color;
+$challenge-text-color: $text-color;
+$challenge-hover-background-color: transparentize($cool-cyan, 0.8);
+$challenge-hover-border: 2px solid $cool-cyan;
+
+$challenge-solved-background-color: transparentize($lime, 0.7);
+$challenge-solved-border: 2px solid $lime;
+
+$challenge-hidden-background-color: transparentize($color-error, 0.7);
+$challenge-hidden-border: 2px solid $color-error;
