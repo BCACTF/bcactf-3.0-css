@@ -11,6 +11,8 @@
 @import "_tables";
 @import "_arcs"; // TODO: Refactor
 
+@import "_hack_challenges";
+
 // LiveView specific classes for your customizations
 .invalid-feedback {
   color: $color-error;
