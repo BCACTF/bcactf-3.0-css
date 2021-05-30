@@ -6,7 +6,8 @@ module.exports = grunt => {
         sass: {
             dist: {
                 options: {
-                    implementation: sass
+                    implementation: sass,
+                    sourceMap: true
                 },
                 files: {
                     "dist/app.css": "src/app.scss"

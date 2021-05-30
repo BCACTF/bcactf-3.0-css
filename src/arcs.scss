@@ -1,0 +1,109 @@
+header section h1, header section h2 {
+    margin: 1rem;
+}
+
+header nav li {
+    text-align: center;
+}
+
+@media (min-width: 40.0rem) {
+    header section h1, header section h2 {
+        margin: 1rem;
+    }
+
+    header nav li {
+        display: inline-block;
+        padding-left: .75rem;
+    }
+}
+
+.text-center {
+    text-align: center;
+}
+
+.challenge-group h2 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.row .challenge-card-container {
+    padding: 1rem;
+}
+
+@media (min-width: 40.0rem) {
+    .row .challenge-card-container {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+}
+
+.challenge-card {
+    padding: 1rem;
+    border: solid black;
+    color: black;
+    height: 100%;
+}
+
+.challenge-card.solved {
+    background-color: lightgreen;
+}
+
+.challenge-card.hidden {
+    border: solid crimson;
+}
+
+.challenge-card:hover {
+    background-color: black;
+    color: white;
+}
+
+.challenge-card * {
+    margin-bottom: 0.5rem;
+}
+
+.challenge-details>span:not(:last-child)::after {
+    content: " – ";
+}
+
+.phx-modal-content {
+    max-width: 780px;
+}
+
+.phx-modal-content>h2 {
+    margin-top: 0.5rem;
+}
+
+.phx-modal-content>* {
+    margin-bottom: 1rem;
+}
+
+.challenge-description * {
+    margin: 0.5em 0;
+}
+
+.solve-form>.row {
+    margin-bottom: 2rem;
+}
+
+.solve-form>.invalid-feedback {
+    margin-bottom: 1rem;
+}
+
+@media (min-width: 40.0rem) {
+    .sharp-right-border {
+        border-bottom-right-radius: 0 !important;
+        border-top-right-radius: 0 !important;
+        margin: 0;
+    }
+
+    .sharp-left-border {
+        border-bottom-left-radius: 0;
+        border-top-left-radius: 0;
+        margin: 0;
+    }
+
+    .sharp-border {
+        border-radius: 0 !important;
+        margin: 0;
+    }
+}
