@@ -1,14 +1,18 @@
-$hot-pink: #FF30FF;
+$hot-pink: #FF4AFF;
 $cool-cyan: #4dc4ff;
 $yellow: yellow;
+$tangy-orange: #ff8521;
+$dark-purple-1: #0f031f;
+$dark-purple-2: #110126;
+$dark-purple-3: #290459;
 
 $color-primary: $cool-cyan;
 $color-initial: black;
 $color-error: #ff765e;
 
 $body-font: "Times New Roman", Times, Tinos, serif;
-$body-background-color: #0f031f;
-$body-background-image: radial-gradient(circle at center, #290459 0, black 100%);
+$body-background-color: $dark-purple-1;
+$body-background-image: radial-gradient(circle at center, $dark-purple-3 0, black 100%);
 
 $heading-font: $body-font;
 $heading-font-smoothing-effect: true;
@@ -24,3 +28,11 @@ $link-hover-color: $yellow;
 
 $input-font-size: inherit;
 $button-font-size: inherit;
+
+$modal-backdrop-color: transparentize($dark-purple-1, 0.1);
+$modal-fallback-backdrop-color: transparentize($dark-purple-1, 0.03);
+$modal-backdrop-filter: blur(10px);
+$modal-background-color: transparentize($cool-cyan, 0.95);
+$modal-border: 3px solid $cool-cyan;
+$modal-close-color: $hot-pink;
+$modal-close-hover-color: $yellow;
