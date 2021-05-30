@@ -6,5 +6,8 @@
 
 .challenge-card {
     border-color: white;
-    color: white;
+
+    &:not(.solved) {
+        color: white;
+    }
 }
