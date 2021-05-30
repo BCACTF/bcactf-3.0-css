@@ -44,3 +44,8 @@ a {
 a:focus, a:hover {
     color: $link-hover-color;
 }
+
+code {
+    font-family: $monospace-font;
+    background-color: $code-background-color;
+}

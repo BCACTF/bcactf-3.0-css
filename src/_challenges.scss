@@ -111,6 +111,6 @@ summary {
     margin-bottom: 0;
 }
 
-.challenge-categories, .challenge-description, .challenge-links, .challenge-hints {
+.challenge-categories, .challenge-description, .challenge-links, .challenge-hints, .challenge-hints details p {
     margin-bottom: $challenge-modal-item-spacing;
 }
