@@ -1,11 +1,19 @@
+@import "_variables";
+
 @import "../node_modules/milligram/src/milligram.sass";
-@import "./pheonix.scss";
+@import "_pheonix";
 @import "../node_modules/nprogress/nprogress";
-@import "./arcs.scss";
+
+@import "_core";
+@import "_header";
+@import "_buttons";
+@import "_forms";
+@import "_tables";
+@import "_arcs"; // TODO: Refactor
 
 // LiveView specific classes for your customizations
 .invalid-feedback {
-  color: #a94442;
+  color: $color-error;
   display: block;
   margin: -1rem 0 2rem;
 }
@@ -80,9 +88,9 @@
   border-color: #faebcc;
 }
 .alert-danger {
-  color: #a94442;
-  background-color: #f2dede;
-  border-color: #ebccd1;
+  color: $color-error;
+  background-color: transparentize($color-error, 0.9);
+  border-color: $color-error;
 }
 .alert p {
   margin-bottom: 0;

@@ -8,7 +8,8 @@ header nav li {
 
 @media (min-width: 40.0rem) {
     header section h1, header section h2 {
-        margin: 1rem;
+        margin-left: 0;
+        margin-right: 0;
     }
 
     header nav li {
@@ -49,7 +50,7 @@ header nav li {
 }
 
 .challenge-card.hidden {
-    border: solid crimson;
+    border: solid $color-error;
 }
 
 .challenge-card:hover {

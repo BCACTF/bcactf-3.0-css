@@ -1,0 +1,46 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: $body-font;
+    color: $text-color;
+    background-color: $body-background-color;
+    
+    @if $body-background-image {
+        &::before {
+            content: "";
+            position: fixed;
+            z-index: -1;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: $body-background-image;
+            background-size: 100vw 100vh;
+            background-repeat: no-repeat;
+        }
+    }
+}
+
+@mixin heading-styles {
+    font-family: $heading-font;
+
+    @if $heading-font-smoothing-effect {
+        -webkit-font-smoothing: none;
+        -moz-osx-font-smoothing: grayscale;
+    }
+}
+
+h1, h2, h3, h4, h5, h6 {
+    @include heading-styles();
+}
+
+a {
+    color: $link-color;
+}
+
+a:focus, a:hover {
+    color: $link-hover-color;
+}
