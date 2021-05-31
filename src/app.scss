@@ -2,7 +2,6 @@
 
 @import "../node_modules/milligram/src/milligram.sass";
 @import "_pheonix";
-@import "../node_modules/nprogress/nprogress";
 
 @import "_core";
 @import "_header";
@@ -15,6 +14,7 @@
 @import "_challenges";
 @import "_scoreboard";
 @import "_home";
+@import "_nprogress";
 
 // LiveView specific classes for your customizations
 .invalid-feedback {
