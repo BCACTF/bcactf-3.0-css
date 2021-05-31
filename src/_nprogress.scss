@@ -2,7 +2,7 @@
 
 #nprogress {
     .bar {
-        color: $nprogress-color;
+        background: $nprogress-color;
     }
 
     .peg {
@@ -11,6 +11,6 @@
 
     .spinner-icon {
         border-top-color: $nprogress-color;
-        border-bottom-color: $nprogress-color;
+        border-left-color: $nprogress-color;
     }
 }
