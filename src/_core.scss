@@ -7,6 +7,7 @@ body {
     font-family: $body-font;
     color: $text-color;
     background-color: $body-background-color;
+    padding-bottom: 24px;
     
     @if $body-background-image {
         &::before {

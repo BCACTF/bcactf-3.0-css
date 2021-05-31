@@ -1,0 +1,41 @@
+div.graph {
+    .exc-domain, .exc-tick line {
+        stroke: $graph-axis-color;
+    }
+
+    .exc-tick text {
+        fill: $graph-axis-color;
+    }
+
+    & > svg > g > g:nth-child(3) {
+        path {
+            stroke-linejoin: round;
+            stroke-linecap: round;
+        }
+    }
+
+    &.graph-highlighted > svg > g > g:nth-child(3) {
+        path {
+            opacity: $graph-unselected-opacity;
+            stroke-width: 2;
+        }
+
+        path:last-child {
+            opacity: 1;
+            stroke: $graph-selected-color;
+            stroke-width: 3;
+        }
+    }
+}
+
+.graph + table {
+    tr td:first-child, th td:first-child {
+        padding-left: 1rem;
+    }
+}
+
+.team-selected {
+    th, td {
+        background-color: $team-selected-background-color;
+    }
+}
