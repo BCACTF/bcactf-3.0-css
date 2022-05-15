@@ -1,7 +1,7 @@
 {
-  "name": "bcactf-2.0-css",
-  "repository": "https://github.com/anli5005/bcactf-2.0-css.git",
-  "author": "anli",
+  "name": "bcactf-3.0-css",
+  "repository": "https://github.com/bcactf/bcactf-3.0-css.git",
+  "author": "bcactf",
   "scripts": {
     "build": "grunt"
   },

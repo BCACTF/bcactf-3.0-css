@@ -3,8 +3,8 @@ $cool-cyan: #4dc4ff;
 $yellow: yellow;
 $lime: lime;
 $tangy-orange: #ff8521;
-$dark-purple-1: #0f031f;
-$dark-purple-2: #290459;
+$dark-purple-1: #4b232f;
+$dark-purple-2: #0a0520;
 $dark-purple-3: #382057;
 
 $color-primary: $cool-cyan;
@@ -16,10 +16,10 @@ $color-error: #ff765e;
 
 $body-font: "Times New Roman", Times, Tinos, serif;
 $body-background-color: $dark-purple-1;
-$body-background-image: radial-gradient(circle at center, $dark-purple-2 0, black 100%);
+$body-background-image: linear-gradient($dark-purple-1, $dark-purple-2);
 
 $heading-font: $body-font;
-$heading-font-smoothing-effect: true;
+$heading-font-smoothing-effect: false;
 
 $monospace-font: monospace;
 
