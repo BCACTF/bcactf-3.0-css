@@ -3,6 +3,8 @@ $cool-cyan: #4dc4ff;
 $yellow: yellow;
 $lime: lime;
 $tangy-orange: #ff8521;
+$gold-1: #fad948;
+$gold-2: #fffaee;
 $dark-purple-1: #4b232f;
 $dark-purple-2: #0a0520;
 $dark-purple-3: #382057;
@@ -14,7 +16,7 @@ $color-info: $cool-cyan;
 $color-warning: $yellow;
 $color-error: #ff765e;
 
-$body-font: "Times New Roman", Times, Tinos, serif;
+$body-font: 'Space Mono', monospace;
 $body-background-color: $dark-purple-1;
 $body-background-image: linear-gradient($dark-purple-1, $dark-purple-2);
 
@@ -23,14 +25,14 @@ $heading-font-smoothing-effect: false;
 
 $monospace-font: monospace;
 
-$text-color: white;
+$text-color: $gold-2;
 
 $border-color: transparentize(white, 0.8);
 // $header-border: 1px solid $border-color;
 $header-border: none;
 
-$link-color: $hot-pink;
-$link-hover-color: $yellow;
+$link-color: $gold-1;
+$link-hover-color: black;
 
 $code-background-color: $dark-purple-3;
 
@@ -42,7 +44,7 @@ $modal-fallback-backdrop-color: transparentize($dark-purple-1, 0.03);
 $modal-backdrop-filter: blur(10px);
 $modal-background-color: transparentize($cool-cyan, 0.95);
 $modal-border: 3px solid $cool-cyan;
-$modal-close-color: $hot-pink;
+$modal-close-color: $gold-1;
 $modal-close-hover-color: $yellow;
 
 $challenge-border: 2px solid $border-color;
@@ -69,4 +71,4 @@ $team-selected-background-color: transparentize(white, 0.9);
 
 $homepage-logo-max-width: 300px;
 
-$nprogress-color: $hot-pink;
+$nprogress-color: $gold-1;

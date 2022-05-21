@@ -14,3 +14,10 @@
         background-color: darken($color-primary, 20%);
     }
 }
+
+label{
+    clear: both;
+    float:left;
+    text-align: right;
+    margin-right:15px;
+}
