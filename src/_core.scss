@@ -46,14 +46,14 @@ h1 > a
 {
     text-decoration: none;
     background: linear-gradient(to left, rgba(0, 0, 0, 0) 51%, #f2f2f2 50%) right;
-    background-size: 200%;
+    background-size: 225%;
     transition: .2s ease-out;
 }
 
 a:not(.sponsor-logos a, h1 > a) {
     text-decoration: underline;
     background: linear-gradient(to left, rgba(0, 0, 0, 0) 51%, #f2f2f2 50%) right;
-    background-size: 200%;
+    background-size: 225%;
     transition: .2s ease-out;
 }
 
