@@ -43,12 +43,31 @@
     background-color: $challenge-hover-background-color;
 }
 
+.challenge-card > h3
+{
+    color: $gold-1;
+}
+
 .challenge-card * {
     margin-bottom: 0.5rem;
 }
 
 .challenge-categories ul {
     margin: 0;
+}
+
+.phx-modal-close
+{
+    background: none !important;
+}
+
+.phx-modal-close:focus, .phx-modal-close:hover {
+    color: $gold-2 !important;
+}
+
+.link-file > a, .challenge-card-container > a, .phx-modal-close
+{
+    text-decoration: none !important;
 }
 
 .challenge-categories li {
