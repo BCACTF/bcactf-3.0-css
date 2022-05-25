@@ -7,7 +7,7 @@ $gold-1: #ebc56f;
 $gold-2: #fffaee;
 $dark-purple-1: #4b232f;
 $dark-purple-2: #0a0520;
-$dark-purple-3: #382057;
+$dark-purple-3: #2b1428;
 
 $color-primary: $cool-cyan;
 $color-initial: black;
@@ -39,7 +39,7 @@ $code-background-color: $dark-purple-3;
 $input-font-size: inherit;
 $button-font-size: inherit;
 
-$modal-backdrop-color: transparentize($dark-purple-1, 0.1);
+$modal-backdrop-color: transparentize($dark-purple-3, 0.03);
 $modal-fallback-backdrop-color: transparentize($dark-purple-1, 0.03);
 $modal-backdrop-filter: blur(10px);
 $modal-background-color: transparentize($cool-cyan, 0.95);
